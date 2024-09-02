@@ -1,0 +1,63 @@
+/* Estilos aplicados ao website prototipando */
+*{
+    margin: 0; /*Remove a margem padrão de todos os elementos*/
+    padding: 0; /*remove o padding de todos os elementos*/
+    box-sizing: border-box; /*Inclui bordas e preenchimentos no cálculo da largura e altura dos elementos*/
+} /*Fechamento do seletor universal*/
+
+body{
+    font-family: Arial, sans-serif; /*Define a fonte da página como Arial, com uma alternativa de sans-serif*/
+    background-color: rgb(33,40,215);/*Define a cor de fundo do código/corpo do HTML*/
+    color: rgb(240, 240, 240);
+}/*Fechamento body*/
+
+/* Estilo do cabeçaçho */
+header{
+    background-color: #2A3233;/*Cor de fundo em hexadecimal*/
+    padding: 40px;
+    text-align: center; /*Alinha o texto do cabeçalho ao centro*/
+}/*Fechamento do header*/
+
+header button{
+    right: 20px; /*Alinha o botão à direita, com 20px de distância da borda direita da página*/
+    top: 20px; /*Alinha o botão ao topo, com 20px de distância da porta superior*/
+    position: absolute; /*Posicion o botão de forma absoluta com relação ao cabeçalho*/
+    background-color: #7E9CD7;
+    color: rgb(240,240,240);
+    padding: 10px 20px;
+    border-radius: 5px; /*Arredonda os cantos do botão*/
+    border: none; /*Remove a borda do botão*/
+    cursor: pointer; /*Define o cursor do ponteiro ao passar sobre o botão*/
+}/*Fechamento header button*/
+
+header h3{
+    margin: 0;
+    padding: 0;
+}/*Fim header h3*/
+
+main{
+    padding: 40px;
+    text-align: center;
+}/*Fechamento main*/
+
+main img{
+    max-width: 150px; /*define a largura maxima da imagem*/
+}/*Fechamento main img*/
+
+
+section{
+    margin: 20px; /*Define a margem superior e inferior das seções como 20px*/
+}
+
+
+
+/* Estilo do rodapé/footer */
+footer{
+    background-color: #2A3233;
+    padding: 40px;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}/*Fim do footer*/
+
