@@ -94,13 +94,13 @@ main section{
 }
 
 footer{
-   und-color: black;
+    color: white;
+    background-color: black;
     height: 60px;
     width: 100%;
     text-align: center;
     align-content: center;
     position: fixed;
-    bottom: 0; color: white;
-    backgro
+    bottom: 0;
 }
 
