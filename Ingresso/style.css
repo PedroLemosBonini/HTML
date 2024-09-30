@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 241, 241);
+    color: black;
+    min-height: 100vh;/*Garante que o body ocupe toda a altura da tela*/
+}
+
+header{
+    background-color: rgb(15, 255, 159);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+header .logo{
+    display: flex;/*Uso do flex box para alinhar a logo e o título*/
+    align-items: center; /*Centraliza verticalmente os itens da div*/
+    justify-content: center; /*Centraliza horizontalmente os itens da div*/
+    /* background-color:rgb(179, 255, 212); */
+    color: black;
+}
+
+header .logo img{
+    max-width: 70px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+header .logo h1{
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 20px;
+}
+
+main section{
+    margin-bottom: 40px;
+}
+
+#home{
+    background-color: #afd8de;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#home h2{
+    color: #00796b;
+}
+
+.eventos-container{
+    display: flex;
+    gap: 20px;
+}
+
+.eventos-itens{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 3px;
+    width: 100%;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+}
+
